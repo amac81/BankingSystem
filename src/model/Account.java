@@ -11,10 +11,10 @@ public class Account {
 	private double balance;
 	private boolean active;
 
-	public Account(int id, double balance, boolean ativa, Client client) {
+	public Account(int id, double balance, boolean active, Client client) {
 		this.id = id;		
 		this.balance = balance;
-		this.active = ativa;
+		this.active = active;
 		this.client = client;
 	}
 

@@ -176,7 +176,7 @@ public class ClientManagerTestEx8 {
 			fail();
 		} catch (Exception e) {
 			// Verifications
-			assertThat(e.getMessage(), is(new BussinessException("The client's age must be between 17 and 70 years old.")));			
+			assertThat(e.getMessage(), is("The client's age must be between 17 and 70 years old."));			
 		}	
 	}
 	
@@ -196,7 +196,8 @@ public class ClientManagerTestEx8 {
 			fail();
 		} catch (Exception e) {
 			// Verifications
-			assertThat(e.getMessage(), is(new BussinessException("The client's age must be between 17 and 70 years old.")));
+			assertThat(e.getMessage(), is("The client's age must be between 17 and 70 years old."));
+			
 		}	
 	}
 	

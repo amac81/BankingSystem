@@ -20,7 +20,7 @@ public class AccountManagerTestEx1 {
 	@Test
 	public void testValueTransfer() throws BussinessException {
 
-		/* Setting up the scene */
+		// Setting up the scene
 
 		// creating some clients
 		Client client1 = new Client(1, "Mary Jane", 22, "mary@mail.com", true);
